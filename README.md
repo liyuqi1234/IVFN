@@ -49,10 +49,8 @@ python shuffle picture.py
 ```
 The example of raw depth map, depth map with filled points and the final depth map are shown below:
 ![Network](/pics/数据预处理示意图.png)
-Snow_data_train and Snow_data_test are examples of train dataset and test dataset.
 
 ### usage of dataset
-
 
 Start with importing `package`:
 ```python
