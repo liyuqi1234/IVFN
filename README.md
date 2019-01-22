@@ -17,3 +17,15 @@ python train2.py
 ```python
 python test.py
 ```
+
+## Data
+Our NUST-SR dataset is composed of the actual road scenes captured while unmanned vehicle driving in the daytime and night. Currently the dataset contains visible light images, infrared images and depth map:
+
+```
+                        |daytime| night  
+------------------------------------------
+infrared images         | 6529  |  5612
+visible light images    | 6529  |  5612
+raw depth maps          | 6529  |  5612
+------------------------------------------
+```
