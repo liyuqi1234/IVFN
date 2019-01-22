@@ -85,9 +85,9 @@ For removal of copyrighted content, please contact me on GitHub.
 If you use this project in academic work, please cite as follows:
 
 ```bibtex
-@misc{liyuqi123,
+@misc{liyuqi1234,
         title={IVFuseNet: Fusion of Infrared and Visible Images for Depth Prediction},
-        url={https://github.com/liyuqi1234/IVFuseNet},
+        url={https://github.com/liyuqi1234/IVFN},
         author={Yuqi, Li},
         year={2019},
         publisher = {GitHub},
