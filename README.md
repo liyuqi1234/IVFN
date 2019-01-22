@@ -29,3 +29,23 @@ visible light images    | 6529  |  5612
 raw depth maps          | 6529  |  5612
 ------------------------------------------
 ```
+
+The raw depth map should be preprocessed, firstly, filled the points for which there is no depth value first using colorization scheme of Levin et al in the NYUDepth development kit:
+
+```python
+python fill_points.py
+```
+
+Secondly, cut the visible light images, infrared images and depth map into 256*512:
+
+```python
+python rgb_ir_depth.py
+```
+
+Finally, shuffle images and generate the dataset:
+
+```python
+python shuffle picture.py
+```
+Snow_data_train and Snow_data_test are examples of train dataset and test dataset.
+
