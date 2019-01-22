@@ -42,10 +42,12 @@ Secondly, cut the visible light images, infrared images and depth map into 256*5
 python rgb_ir_depth.py
 ```
 
-Finally, shuffle images and generate the dataset:
+Finally, shuffle images and generate the dataset （the final depth map are classified into 32 classes）:
 
 ```python
 python shuffle picture.py
 ```
+The example of raw depth map, depth map with filled points and the final depth map are shown below:
+![Network](/pics/数据预处理示意图.png)
 Snow_data_train and Snow_data_test are examples of train dataset and test dataset.
 
