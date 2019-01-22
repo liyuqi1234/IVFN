@@ -51,3 +51,48 @@ The example of raw depth map, depth map with filled points and the final depth m
 ![Network](/pics/数据预处理示意图.png)
 Snow_data_train and Snow_data_test are examples of train dataset and test dataset.
 
+### usage of dataset
+
+
+Start with importing `package`:
+```python
+import h5py
+import matplotlib.pyplot as plt
+```
+- To load a dataset:
+```python
+def read_hdf5(file_name):
+    with h5py.File(file_name, 'r') as f:
+        images = np.asarray(f['images'])
+        depths = np.asarray(f['depths'])
+        infrareds = np.asarray(f['infrareds'])
+    return images,depths,infrareds
+images,depths,infrareds=read_hdf5('test_snow_data.h5')
+```
+- To display the image of a dataset:
+```python
+i, j = 0,4
+imageTest = images[i:j]
+plt.imshow(imageTest[0],cmap='jet')
+```
+
+
+## License
+I provide this project for research purposes, please follow `Citing`.
+
+For removal of copyrighted content, please contact me on GitHub.
+
+
+## Citing
+If you use this project in academic work, please cite as follows:
+
+```bibtex
+@misc{liyuqi123,
+        title={IVFuseNet: Fusion of Infrared and Visible Images for Depth Prediction},
+        url={https://github.com/liyuqi1234/IVFuseNet},
+        author={Yuqi, Li},
+        year={2019},
+        publisher = {GitHub},
+        journal = {GitHub repository}
+}
+```
