@@ -9,11 +9,11 @@ If this code and dataset are provided for research purposes, please see License 
 This model's structure looks just like the following illustration:
 ![Network](/pics/Fig2.png)
 
-###Train
+### Train
 ```python
 python train2.py
 ```
-###Test
+### Test
 ```python
 python test.py
 ```
