@@ -30,16 +30,16 @@ raw depth maps          | 6529  |  5612
 ------------------------------------------
 ```
 
-The raw depth map should be preprocessed, firstly, filled the points for which there is no depth value first using colorization scheme of Levin et al in the NYUDepth development kit:
-
-```python
-python fill_points.py
-```
-
-Secondly, cut the visible light images, infrared images and depth map into 256*512:
+The raw depth map should be preprocessed, firstly,  match the visible light images, infrared images and depth map, cut them into 256*512:
 
 ```python
 python rgb_ir_depth.py
+```
+
+Secondly,filled the points for which there is no depth value first using colorization scheme of Levin et al in the NYUDepth development kit:
+
+```python
+python fill_points.py
 ```
 
 Finally, shuffle images and generate the dataset （the final depth map are classified into 32 classes）:
@@ -50,7 +50,10 @@ python shuffle picture.py
 The example of raw depth map, depth map with filled points and the final depth map are shown below:
 ![Network](/pics/数据预处理示意图.png)
 
-Here we give the data link of its training set and test set, please click the link to get the visible light images, infrared images and the corresponding ground-truth depths.
+Here we give the data link , please click the link to get the visible light images, infrared images and the corresponding ground-truth depths.
+[NUST-SR](https://pan.baidu.com/disk/home#/all?vmode=list&path=%2FNUST-SR)
+
+
 
 
 ### usage of dataset
