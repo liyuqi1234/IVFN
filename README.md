@@ -32,20 +32,20 @@ raw depth maps          | 6529  |  5612
 
 The raw depth map should be preprocessed, firstly,  match the visible light images, infrared images and depth map, cut them into 256*512:
 
-```python
-python rgb_ir_depth.py
+```Launch Jupyter notebook
+jupyter notebook rgb_ir_depth.ipynb
 ```
 
 Secondly,filled the points for which there is no depth value first using colorization scheme of Levin et al in the NYUDepth development kit:
 
-```python
-python fill_points.py
+```Launch Jupyter notebook
+jupyter notebook fill_points.ipynb
 ```
 
 Finally, shuffle images and generate the dataset （the final depth map are classified into 32 classes）:
 
-```python
-python shuffle picture.py
+```Launch Jupyter notebook
+jupyter notebook shuffle picture.ipynb
 ```
 The example of raw depth map, depth map with filled points and the final depth map are shown below:
 ![Network](/pics/数据预处理示意图.png)
