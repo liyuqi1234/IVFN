@@ -58,7 +58,7 @@ Click the link to get the example of dataset of daytime and night:
 
 [Dataset-example](https://pan.baidu.com/disk/home#/all?vmode=list&path=%2FNUST-SR%2Fexample%20dataset)
 
-### usage of dataset
+### usage of NUST-SR
 
 Start with importing `package`:
 ```python
