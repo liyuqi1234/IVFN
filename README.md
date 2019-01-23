@@ -14,7 +14,7 @@ This model's structure looks just like the following illustration:
 python train.py
 ```
 ### Test
-```Launch Jupyter notebook
+```Jupyter notebook
 Jupyter notebook test.ipynb
 ```
 
