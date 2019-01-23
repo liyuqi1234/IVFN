@@ -50,11 +50,9 @@ python shuffle picture.py
 The example of raw depth map, depth map with filled points and the final depth map are shown below:
 ![Network](/pics/数据预处理示意图.png)
 
-Here we give the data link , please click the link to get the visible light images, infrared images and the corresponding ground-truth depths.
+Here we give the data link , please click the link to get the visible light images, infrared images and the corresponding ground-truth depths:
+
 [NUST-SR](https://pan.baidu.com/disk/home#/all?vmode=list&path=%2FNUST-SR)
-
-
-
 
 ### usage of dataset
 
