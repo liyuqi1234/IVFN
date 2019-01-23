@@ -11,11 +11,11 @@ This model's structure looks just like the following illustration:
 
 ### Train
 ```python
-python train2.py
+python train.py
 ```
 ### Test
-```python
-python test.py
+```Launch Jupyter notebook
+Jupyter notebook test.ipynb
 ```
 
 ## Data_Preprocess
