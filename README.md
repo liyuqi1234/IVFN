@@ -52,7 +52,7 @@ The example of raw depth map, depth map with filled points and the final depth m
 
 Here we give the data link , please click the link to get the visible light images, infrared images and the corresponding ground-truth depths:
 
-[NUST-SR](https://pan.baidu.com/disk/home#/all?vmode=list&path=%2FNUST-SR)
+[NUST-SR](https://pan.baidu.com/s/183TfvGOoHC8m_x7RhLDFRQ)
 
 Click the link to get the example of dataset of daytime and night:
 
